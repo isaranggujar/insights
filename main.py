@@ -1,2 +1,4 @@
 print("Hello")
-print("Sarang")
+print("Sarang"
+print(2+8)
+print(2+2)
