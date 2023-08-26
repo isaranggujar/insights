@@ -1,7 +1,6 @@
-fruits = ("apple", "banana", "gail", "free", "cherry")
-
-x = 0
-while x in range(len(fruits)):
-    print(x, fruits [x])
-    x +=1
-
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict)
