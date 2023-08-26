@@ -1,6 +1,3 @@
-thisdict = {
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
-print(thisdict)
+a = 2
+b = 330
+print("A") if a > b else print("B")
