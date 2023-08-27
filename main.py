@@ -1,3 +1,7 @@
-a = 2
-b = 330
-print("A") if a > b else print("B")
+i = 0
+while i < 6:
+
+    if i == 3:
+        continue
+    print(i)
+    i += 1
