@@ -1,10 +1,7 @@
-def tri_recursion(k):
-  if(k > 0):
-    result = k + tri_recursion(k - 1)
-    print(result)
-  else:
-    result = 0
-  return result
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
 
-print("Recursion Example Results")
-tri_recursion(6)
+print(thisdict.items())
