@@ -1,4 +1,2 @@
-import datetime
-
-x = datetime.datetime.now()
-print(x)
+f = open("C:\\myfile.txt", "r")
+print(f.read())
