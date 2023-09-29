@@ -6,4 +6,3 @@ ypoint = np.array([2,4,5,8])
 
 plt.plot(xpoint,ypoint,"o")
 plt.show()
-
