@@ -1,8 +1,13 @@
-import matplotlib.pyplot as plt
-import numpy as np
+import mysql.connector
 
-xpoint = np.array([1,2,  3, 4])
-ypoint = np.array([2,4,5,8])
+mydb = mysql.connector.connect(
+  host="localhost",
+  user="root",
+  password="Admins@2023",
+  database="mydb"
+)
 
-plt.plot(xpoint,ypoint,"o")
-plt.show()
+mycursor = mydb.cursor()
+
+"""mycursor.execute("CREATE TABLE customers (name VARCHAR(255), address VARCHAR(255))")"""
+print(mydb)
